@@ -1,12 +1,6 @@
 {
   "name": "react-native-wave-animation",
   "version": "1.0.0",
-  "files": [
-    "android",
-    "ios",
-    "index.ios.js",
-    "index.android.js"
-  ],
   "main": "index.js",
   "repository": "git@github.com:noob9527/react-native-wave-animation.git",
   "author": "xy <2061864@qq.com>",

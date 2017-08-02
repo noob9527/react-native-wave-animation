@@ -12,20 +12,26 @@ import {
   View
 } from 'react-native';
 
+import WaveAnimation from 'react-native-wave-animation';
+
 export default class example extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <WaveAnimation
+          frontWaveColor="rgba(255,255,255,0.5)"
+          behindWaveColor="yellow"
+          style={{
+            width:200,
+            height:200,
+            backgroundColor: 'black',
+            justifyContent: 'center',
+          }}
+        >
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        </WaveAnimation>
       </View>
     );
   }
@@ -42,6 +48,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color: 'red',
+    backgroundColor: 'transparent'
   },
   instructions: {
     textAlign: 'center',
