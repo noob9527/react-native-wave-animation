@@ -1,18 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { requireNativeComponent, ViewProptypes } from 'react-native';
+import { requireNativeComponent, ViewPropTypes } from 'react-native';
 
 const iface = {
     name: 'NativeWaveAnimation',
     propTypes: {
-        ...ViewProptypes,
+        ...ViewPropTypes,
         percent: PropTypes.number,
         frontWaveColor: PropTypes.string,
         behindWaveColor: PropTypes.string,
     },
-    defaultProps: {
-        active: true,
-    }
 }
 
 export default requireNativeComponent('WaveAnimationView', iface);

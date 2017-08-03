@@ -1,3 +1,5 @@
 rootProject.name = 'example'
+include ':react-native-wave-animation'
+project(':react-native-wave-animation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wave-animation/android')
 
 include ':app'

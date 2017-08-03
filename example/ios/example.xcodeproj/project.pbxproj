@@ -35,7 +35,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* exampleTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		462068DDC80B45A1BE1AC1E6 /* libWaveAnimationView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AE3ECD0D424F809F3A4BF7 /* libWaveAnimationView.a */; };
+		5B1F27F7D46F47ACA6127652 /* libWaveAnimationView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D10CB004539E4885A7F03482 /* libWaveAnimationView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,8 +255,8 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		74D72282312F4142AEE26C1B /* WaveAnimationView.xcodeproj */ = {isa = PBXFileReference; name = "WaveAnimationView.xcodeproj"; path = "../node_modules/react-native-wave-animation/ios/WaveAnimationView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		38AE3ECD0D424F809F3A4BF7 /* libWaveAnimationView.a */ = {isa = PBXFileReference; name = "libWaveAnimationView.a"; path = "libWaveAnimationView.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		62642D1D7C04414A99B7A0EC /* WaveAnimationView.xcodeproj */ = {isa = PBXFileReference; name = "WaveAnimationView.xcodeproj"; path = "../node_modules/react-native-wave-animation/ios/WaveAnimationView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D10CB004539E4885A7F03482 /* libWaveAnimationView.a */ = {isa = PBXFileReference; name = "libWaveAnimationView.a"; path = "libWaveAnimationView.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,7 +283,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				462068DDC80B45A1BE1AC1E6 /* libWaveAnimationView.a in Frameworks */,
+				5B1F27F7D46F47ACA6127652 /* libWaveAnimationView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +450,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				74D72282312F4142AEE26C1B /* WaveAnimationView.xcodeproj */,
+				62642D1D7C04414A99B7A0EC /* WaveAnimationView.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";

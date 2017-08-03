@@ -19,7 +19,7 @@ export default class example extends Component {
     return (
       <View style={styles.container}>
         <WaveAnimation
-          frontWaveColor="rgba(255,255,255,0.5)"
+          frontWaveColor="blue"
           behindWaveColor="yellow"
           style={{
             width:200,

@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, ViewProptypes } from 'react-native';
+import { View, ViewPropTypes } from 'react-native';
 import NativeWaveAnimation from './NativeWaveAnimation';
 
 class WaveAnimationView extends React.Component {
     static propTypes = {
-        ...ViewProptypes,
+        ...ViewPropTypes,
         percent: PropTypes.number,
         frontWaveColor: PropTypes.string,
         behindWaveColor: PropTypes.string,
